@@ -1,0 +1,10 @@
+id: ""                      # e.g. case-001
+skill: ""                   # opportunity-radar | consensus-builder | deal-control-tower
+as_of: ""                   # the date you're "freezing" the account at
+account_snapshot: |
+  Paste the anonymised account context as it looked on as_of.
+signals_available: |
+  What was publicly or internally knowable on as_of.
+# --- Hidden from the skill during the run ---
+actual_outcome: ""          # won | lost | slipped | renewed | expanded | churned
+what_actually_mattered: ""  # the real reason, in one or two lines

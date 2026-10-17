@@ -1,0 +1,11 @@
+{
+  "name": "ent-gtm-os",
+  "version": "0.1.0",
+  "description": "Enterprise seller operating system: Opportunity Radar (farmer and hunter), Consensus Builder and Deal Control Tower, sharing one account context layer.",
+  "author": {
+    "name": "Sam Dennis",
+    "url": "https://github.com/thesamdennis"
+  },
+  "license": "MIT",
+  "keywords": ["sales", "enterprise", "gtm", "account-planning", "deal-strategy", "apac"]
+}

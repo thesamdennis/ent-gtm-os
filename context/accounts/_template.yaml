@@ -1,0 +1,36 @@
+# Account context template. Copy to <account-slug>.yaml.
+# Real accounts stay LOCAL. Only _template.yaml and example-*.yaml are tracked in git.
+
+account:
+  name: ""
+  country: ""                 # e.g. SG, MY, ID, TH, VN, PH
+  industry: ""
+  employees_band: ""          # <1k, 1-5k, 5-20k, 20k+
+  ownership: ""               # listed | government-linked | family-controlled | MNC-subsidiary | private
+  decision_hq: ""             # where talent/L&D budget is decided
+
+relationship:
+  motion: farmer              # farmer | hunter
+  products_owned: []          # empty for hunter targets
+  contract_value_band: ""     # <50k | 50-150k | 150-500k | 500k+ | unknown
+  renewal_date: ""            # YYYY-MM-DD or unknown
+  last_senior_contact: ""     # YYYY-MM-DD or unknown
+  warm_paths: []              # hunter: known routes in (titles/relationship type, not private details)
+
+# --- Written by opportunity-radar ---
+radar:
+  last_run: ""
+  tier: ""                    # act-now | watch | park | pursue-now | warm-up | not-yet | not-a-fit
+  signals: []                 # - { what: "", source: "", date: "" }
+  play: ""
+  next_move: ""
+  confidence: ""
+
+# --- Written by consensus-builder ---
+stakeholders: []              # - { title: "", role: "", influence: "", stance: "", cares_about: "", last_touch: "", next_move: "" }
+
+# --- Written by deal-control-tower ---
+deals: []                     # - { name: "", stage: "", value_band: "", close_date: "", status: "", change: "", risks: [], next_actions: [], reviewed: "" }
+
+notes: |
+  Relationship history, politics, what has worked and what hasn't.

@@ -1,0 +1,11 @@
+# Real account data never goes in git
+context/accounts/*
+!context/accounts/_template.yaml
+!context/accounts/example-*.yaml
+
+# Real eval cases stay local
+evals/cases/
+evals/results.md
+
+.DS_Store
+.env

@@ -1,0 +1,45 @@
+# SYNTHETIC EXAMPLE — fictional company for testing. Farmer motion with a renewal in window.
+
+account:
+  name: "Harbourline Logistics Group"
+  country: SG
+  industry: "Logistics and supply chain"
+  employees_band: "5-20k"
+  ownership: listed
+  decision_hq: "Singapore (group HR)"
+
+relationship:
+  motion: farmer
+  products_owned: ["Recruiter"]
+  contract_value_band: "150-500k"
+  renewal_date: "2027-03-31"
+  last_senior_contact: "2026-07-14"
+  warm_paths: []
+
+radar:
+  last_run: ""
+  tier: ""
+  signals: []
+  play: ""
+  next_move: ""
+  confidence: ""
+
+stakeholders:
+  - { title: "Head of Talent Acquisition", role: champion, influence: high, stance: supporter, cares_about: "time-to-fill for warehouse supervisors", last_touch: "2026-09-30", next_move: "" }
+  - { title: "CHRO", role: economic-buyer, influence: high, stance: unknown, cares_about: "unknown", last_touch: "2026-07-14", next_move: "" }
+  - { title: "Procurement Manager", role: procurement, influence: medium, stance: unknown, cares_about: "unknown", last_touch: "", next_move: "" }
+
+deals:
+  - name: "FY27 renewal + Hiring Assistant expansion"
+    stage: "discovery"
+    value_band: "150-500k"
+    close_date: "2027-03-31"
+    status: ""
+    change: ""
+    risks: []
+    next_actions: []
+    reviewed: ""
+
+notes: |
+  Fictional. Group announced (fictional) a Johor distribution hub. Champion keen on Hiring
+  Assistant; CHRO not met since July. Procurement has asked for a renewal quote early.

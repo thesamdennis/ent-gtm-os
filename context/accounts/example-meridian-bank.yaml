@@ -1,0 +1,32 @@
+# SYNTHETIC EXAMPLE — fictional company for testing. Hunter motion (net-new logo).
+
+account:
+  name: "Meridian Regional Bank"
+  country: MY
+  industry: "Financial services"
+  employees_band: "5-20k"
+  ownership: family-controlled
+  decision_hq: "Kuala Lumpur"
+
+relationship:
+  motion: hunter
+  products_owned: []
+  contract_value_band: unknown
+  renewal_date: unknown
+  last_senior_contact: unknown
+  warm_paths: ["Former colleague now in HR transformation team", "Shared alumni network with Head of L&D"]
+
+radar:
+  last_run: ""
+  tier: ""
+  signals: []
+  play: ""
+  next_move: ""
+  confidence: ""
+
+stakeholders: []
+deals: []
+
+notes: |
+  Fictional. Announced (fictional) a digital-banking transformation and branch consolidation.
+  Long-serving family-appointed COO is thought to approve major people investments.
